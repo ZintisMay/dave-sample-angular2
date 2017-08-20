@@ -1,3 +1,18 @@
+ng new <project-name>
+touch .gitignore
+(edit gitignore for node_modules and dist)
+
+ng build --prod (makes dist file)
+
+firebase login --interactive
+firebase init (folder? dist), (rewrite url's? y), (overwrite index.html? n)
+firebase deploy
+
+if you need to: firebase use <newProjectName> 
+firebase list (see what projects you can push to)
+firebase serve (make sure it's launching dist directory)
+
+
 # DaveSampleAngular2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
